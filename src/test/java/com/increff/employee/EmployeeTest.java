@@ -3,7 +3,6 @@ package com.increff.employee;
 
 import org.junit.Test;
 
-import javax.xml.transform.Result;
 import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
