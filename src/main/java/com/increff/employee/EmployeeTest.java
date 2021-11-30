@@ -1,5 +1,6 @@
 package com.increff.employee;
 
+
 import org.junit.Test;
 
 import javax.xml.transform.Result;
@@ -7,7 +8,8 @@ import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import static org.junit.Assert.assertEquals;
+import static junit.framework.TestCase.assertEquals;
+
 
 public class EmployeeTest {
     @Test
