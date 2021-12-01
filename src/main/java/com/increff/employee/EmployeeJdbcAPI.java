@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Properties;
 import java.util.logging.Logger;
 
-public class EmployeeAPI {
+public class EmployeeJdbcAPI {
     private static final Logger logger = Logger.getLogger("MainLogger");
     private Connection con;
 
@@ -29,7 +29,7 @@ public class EmployeeAPI {
 //        con.close();
     }
 
-    public EmployeeAPI() throws IOException, SQLException, ClassNotFoundException {
+    public EmployeeJdbcAPI() throws IOException, SQLException, ClassNotFoundException {
         logger.info("Hello, World!");
         Properties props = new Properties();
         InputStream inputStream = new FileInputStream("employee.properties");

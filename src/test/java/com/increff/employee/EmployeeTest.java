@@ -14,7 +14,7 @@ public class EmployeeTest {
     @Test
     public void sayHello() throws SQLException, IOException, ClassNotFoundException {
         System.out.println("Hello!");
-        EmployeeAPI employeeAPI = new EmployeeAPI();
+        EmployeeJdbcAPI employeeAPI = new EmployeeJdbcAPI();
         employeeAPI.delete();
         employeeAPI.insert();
         ResultSet rs = employeeAPI.select();
